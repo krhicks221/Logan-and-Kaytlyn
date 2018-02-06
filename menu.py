@@ -7,7 +7,10 @@
 #    6 Write a program that prints a multiplication table for numbers up to 12.
 #    7 Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
 
-import roaden
+import kaytlyn1
+import kaytlyn2
+import kaytlyn4
+import kaytlyn6
 menu = """
         Pick a menu option!
 ---------------------------------------------------------
@@ -23,14 +26,20 @@ menu = """
 
 
 while(True):
-    print(menu)
+	print(menu)
     
 
-    choice = input()
+	choice = input()
 
-    if choice == '1':
-        roaden.helloworld()
-    elif choice == '8':
-        break
-    else:
-        print("Invalid choice...")
+	if choice == '1':
+        	kaytlyn1.helloworld()
+	elif choice == '2':
+		kaytlyn2.numbertwo()
+	elif choice == '4':
+		kaytlyn4.numberfour()
+	elif choice == '6':
+		kaytlyn6.questionsix()
+	elif choice == '8':
+		break
+	else:
+        	print("Invalid choice...")
