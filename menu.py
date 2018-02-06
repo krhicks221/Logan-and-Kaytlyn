@@ -9,8 +9,11 @@
 
 import kaytlyn1
 import kaytlyn2
+import Logan
 import kaytlyn4
+import Logan2
 import kaytlyn6
+import Logan3
 menu = """
         Pick a menu option!
 ---------------------------------------------------------
@@ -35,10 +38,16 @@ while(True):
         	kaytlyn1.helloworld()
 	elif choice == '2':
 		kaytlyn2.numbertwo()
+	elif choice == '3':
+		Logan.numberthree()
 	elif choice == '4':
 		kaytlyn4.numberfour()
+	elif choice == '5':
+		Logan2.numberfive()
 	elif choice == '6':
 		kaytlyn6.questionsix()
+	elif choice == '7':
+		Logan3.numberseven()
 	elif choice == '8':
 		break
 	else:
